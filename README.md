@@ -2,7 +2,7 @@
 
 Very, very simple script to convert a dd2vtt file from png to webp format.
 
-It is using cwebp and the quality is 85.
+It is using cwebp and the default quality is 85.
 
 
 ## Usge
@@ -26,7 +26,7 @@ optional arguments:
                         output path
 ```
 
-WARNING: It overwrites the original file.
+WARNING: If executed in the same directory or with the same output path as the original file it will silently overwrite the original file.
 
 ## Requirements 
 - Python3
